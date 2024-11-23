@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://eshop-client-zeta.vercel.app/',],
+  origin: ['https://eshop-client-zeta.vercel.app',],
   credentials: true
 }));
 
