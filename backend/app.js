@@ -6,11 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors());
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin": "https://eshop-client-zeta.vercel.app");
-  res.header('Access-Control-Allow-Credentials', true);
-  next();
-});
+
 
 app.use(express.json());
 app.use(cookieParser());
