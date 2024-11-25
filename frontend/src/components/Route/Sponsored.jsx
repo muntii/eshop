@@ -30,7 +30,7 @@ const Sponsored = () => {
         </div>
         <div className="flex items-start">
           <img
-            src="https://cdn2.iconfinder.com/data/icons/apple-tv-1/512/apple_logo-512.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJWcI-P1uGQfds7CJVADD6pPoVZ2VRt8mWSA&s"
             style={{width:"150px", objectFit:"contain"}}
             alt=""
           />
